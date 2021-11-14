@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Roboto&display=swap');
+
+
+:root{
+    --padding-page: 30px;
+    --padding-slogan: 100px;
+    --padding-nav:2vh;
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: Arial, Helvetica, sans-serif;
+    --box-radius:5px;
+
+    --header-background: repeating-linear-gradient(4445deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(90deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(64,83%,54%,0.05) 0px, hsla(64,83%,54%,0.05) 1px,transparent 1px, transparent 11px,hsla(64,83%,54%,0.05) 11px, hsla(64,83%,54%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(19,14,58),rgb(60,9,47));
+}
+/* .box {
+    
+    border: 1px solid #333;
+    padding: 10px;
+} */
+body{
+    background-image: radial-gradient(circle at 69% 86%, rgba(165, 165, 165,0.06) 0%, rgba(165, 165, 165,0.06) 25%,rgba(193, 193, 193,0.06) 25%, rgba(193, 193, 193,0.06) 50%,rgba(221, 221, 221,0.06) 50%, rgba(221, 221, 221,0.06) 75%,rgba(249, 249, 249,0.06) 75%, rgba(249, 249, 249,0.06) 100%),radial-gradient(circle at 49% 76%, rgba(129, 129, 129,0.06) 0%, rgba(129, 129, 129,0.06) 25%,rgba(164, 164, 164,0.06) 25%, rgba(164, 164, 164,0.06) 50%,rgba(200, 200, 200,0.06) 50%, rgba(200, 200, 200,0.06) 75%,rgba(235, 235, 235,0.06) 75%, rgba(235, 235, 235,0.06) 100%),radial-gradient(circle at 22% 64%, rgba(173, 173, 173,0.06) 0%, rgba(173, 173, 173,0.06) 25%,rgba(119, 119, 119,0.06) 25%, rgba(119, 119, 119,0.06) 50%,rgba(64, 64, 64,0.06) 50%, rgba(64, 64, 64,0.06) 75%,rgba(10, 10, 10,0.06) 75%, rgba(10, 10, 10,0.06) 100%),linear-gradient(307deg, rgb(255,255,255),rgb(255, 255, 255));
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+.grid-column{
+    margin: 0px 100px;
+}
+                    /*Navegação*/
+.navbar {
+    grid-area: nav;
+    height: 7vh;
+    background: var(--header-background);
+    padding: 0px 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-primary);
+    font-weight: bold;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    position: relative
+}
+.navbar a:after{
+    content: "";
+    position: absolute;
+    background: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+}
+.navbar a:hover::before{
+    color: gray;
+}
+.navbar a:hover::after{
+    width: 0;
+    animation: nav_effect .6s forwards;
+  }
+  
+  @keyframes nav_effect{
+    to{
+      width: 100%;
+    }
+  }
+.logo  {
+    font-size: 20px;
+    font-family:'Josefin Sans', sans-serif;;
+}
+            /*Artigos e titulos*/
+.box-1 {
+    padding-top:50px;
+    border-bottom:1px solid black;
+}
+
+.box-1 h1{
+    font-family:var(--font-primary);
+    font-size:50px;
+}
+.box-1 h3{
+    font-family:var(--font-secondary);
+    color:rgb(158, 157, 157);
+
+}
+.box-2{
+    padding:40px;
+    
+}
+.box-2 p {
+    font-family: var(--font-primary);
+}
+.box-2 img{
+    width: 400px;
+    height: 200px;
+    align-items:center;
+    text-align:center;
+}
+
+footer{
+    height: 7vh;
+    background: var(--header-background);
+    padding: 0px 50px;
+    color: white;
+    margin-top: 40vh;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+
+}
