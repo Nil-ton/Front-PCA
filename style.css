@@ -32,7 +32,7 @@ a{
 /* index */
 header {
   background: var(--header-background);
-  max-height: 100vh;
+  height: 100vh;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
@@ -41,6 +41,29 @@ header {
     'slogan slogan slogan'
     'btn btn btn'
   ;
+}
+
+@media (max-width: 1025px) {
+  .slogan_wrap img {
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding-top: 0px;
+  }
+}
+
+@media (max-height: 730px) {
+  .slogan_wrap img {
+    width: 300px;
+    height: 300px;
+  }
+  .slogan_wrap{
+    padding: 0 100px;
+  }
+  header{
+    height: 100vh;
+  }
 }
 
 /* nav */
@@ -107,29 +130,6 @@ header {
   height: 400px;
 }
 
-@media (max-width: 1025px) {
-  .slogan_wrap img {
-    display: none;
-  }
-
-  .slogan_text_wrap{
-    padding-top: 0px;
-  }
-}
-
-@media (max-height: 730px) {
-  .slogan_wrap img {
-    width: 300px;
-    height: 300px;
-  }
-  .slogan_wrap{
-    padding: 0 100px;
-  }
-  header{
-    height: 100vh;
-  }
-}
-
 /* btn */
 
 .btn_wrap{
@@ -160,3 +160,245 @@ header {
 .btn_wrap a:hover{
   background: var(--hover-a)
 }
+
+/* responsivo */
+
+@media (width: 360px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    margin-bottom: 100px;
+  }
+}
+
+@media (width: 411px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 22px;
+  }
+}
+
+@media (height: 823px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    font-size: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  .btn_wrap a {
+    font-size: 25px;
+  }
+}
+
+@media (width: 320px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    font-size: 14px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 18px;
+  }
+  .nav_wrap{
+    font-size: 10px;
+  }
+}
+
+@media (width: 375px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    font-size: 17px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 20px;
+  }
+  .nav_wrap{
+    font-size: 10px;
+  }
+}
+
+
+@media (width: 414px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 22px;
+  }
+  .nav_wrap{
+    font-size: 10px;
+  }
+}
+
+@media (width: 375px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 23px;
+  }
+  .nav_wrap{
+    font-size: 10px;
+  }
+}
+
+
+@media (width: 768px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 50px;
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 35px;
+  }
+  .nav_wrap{
+    font-size: 20px;
+  }
+}
+
+@media (width: 540px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 50px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 22px;
+  }
+  .nav_wrap{
+    font-size: 20px;
+  }
+}
+
+@media (width: 280px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+
+  .slogan_text_wrap{
+    padding: 0 20px;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 100px;
+  }
+  .btn_wrap a {
+    font-size: 16px;
+  }
+  .nav_wrap{
+    font-size: 10px;
+  }
+}
+
+@media (height: 600px) {
+  .slogan_wrap {
+    padding: 0px;
+  }
+
+  .slogan_text_wrap{
+    padding: 150px 20px 0px 20px;
+    font-size: 15px;
+  }
+  .btn_wrap a {
+    font-size: 18px;
+  }
+  .nav_wrap{
+    font-size: 16px;
+  }
+}
+
+@media (width: 1280px) {
+  .slogan_wrap {
+    padding: 20px;
+  }
+
+  .slogan_text_wrap{
+    width: 100%;
+    padding: 140px 20px 0px 20px;
+    font-size: 20px;
+  }
+  .btn_wrap a {
+    font-size: 25px;
+  }
+  .nav_wrap{
+    font-size: 16px;
+  }
+}
+
+
