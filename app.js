@@ -22,7 +22,7 @@ export class Create extends DataJson {
             <a href = "/pages/${this.page}/article/?${i}">${item.title}</a>
             </h1>
             <div class = 'p'>
-              ${item.subtitle}
+              <p>${item.subtitle}</p>
             </div>
           </div>
         </a>
