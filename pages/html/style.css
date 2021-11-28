@@ -582,6 +582,26 @@ main{
   }
 }
 
+@media (width: 414px){
+  .table {
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .table img{
+    width: 98%;
+  }
+  .table .wrap-table{
+    padding: 0;
+    width: 80%;
+  }
+  .table .wrap-table .p{
+    font-size: 30px;
+  }
+}
+
 @media (width: 375px) and (height: 812px){
   .table {
     padding: 20px 0 20px 0;
@@ -647,3 +667,4 @@ main{
     width: 80%;
   }
 }
+
