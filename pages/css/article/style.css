@@ -276,6 +276,29 @@ footer{
     }
 }
 
+@media(width:414px){
+    .grid-column{
+        margin: 0;
+    }
+    .box-1 h1{
+        font-size: 35px;
+    }
+    .box-2 p{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .box-2 img{
+        width: 110%;
+        height:120%
+    }
+    footer h3{
+        font-size: 20px;
+    }
+}
+
+
 @media(width:375px) and (height: 812px){
     .grid-column{
         margin: 0;
