@@ -124,7 +124,7 @@ footer{
 }
 
 /* responsive */
-@media(width:360px) and (height: 640px){
+@media(width:360px){
     .grid-column{
         margin: 0;
     }
@@ -146,7 +146,7 @@ footer{
     }
 }
 
-@media(width:411px) and (height: 731px){
+@media(width:411px){
     .grid-column{
         margin: 0;
     }
@@ -168,7 +168,7 @@ footer{
     }
 }
 
-@media(width:411px) and (height: 823px){
+@media(width:411px){
     .grid-column{
         margin: 0;
     }
@@ -190,7 +190,7 @@ footer{
     }
 }
 
-@media(width:320px) and (height: 568px){
+@media(width:320px){
     .grid-column{
         margin: 0;
     }
@@ -211,7 +211,7 @@ footer{
         font-size: 10px;
     }
 }
-@media(width:375px) and (height: 667px){
+@media(width:375px){
     .grid-column{
         margin: 0;
     }
@@ -254,7 +254,7 @@ footer{
     }
 }
 
-@media(width:414px) and (height: 736px){
+@media(width:414px){
     .grid-column{
         margin: 0;
     }
@@ -299,7 +299,7 @@ footer{
 }
 
 
-@media(width:375px) and (height: 812px){
+@media(width:375px){
     .grid-column{
         margin: 0;
     }
@@ -343,7 +343,7 @@ footer{
     }
 }
 
-@media(width:540px) and (height: 720px){
+@media(width:540px){
     .grid-column{
         margin: 0;
     }
@@ -364,7 +364,7 @@ footer{
         font-size: 20px;
     }
 }
-@media(width:280px) and (height: 653px){
+@media(width:280px){
     .grid-column{
         margin: 0;
     }
