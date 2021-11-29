@@ -446,7 +446,8 @@ main{
 }
 
 /* table responsive */
-@media (width: 360px) and (height: 640px){
+/* table responsive */
+@media (width: 360px){
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -462,27 +463,7 @@ main{
   }
 }
 
-@media (width: 411px) and (height: 731px){
-  .table {
-    padding: 20px 0 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-  }
-  .table img{
-    width: 98%;
-  }
-  .table .wrap-table{
-    padding: 0;
-    width: 80%;
-  }
-  .table .wrap-table .p{
-    font-size: 25px;
-  }
-}
-
-@media (width: 411px) and (height: 823px){
+@media (width: 411px){
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -502,7 +483,7 @@ main{
   }
 }
 
-@media (width: 320px) and (height: 568px){
+@media (width: 411px){
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -522,7 +503,7 @@ main{
   }
 }
 
-@media (width: 375px) and (height: 667px){
+@media (width: 320px) {
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -562,7 +543,27 @@ main{
   }
 }
 
-@media (width: 414px) and (height: 736px){
+@media (width: 375px){
+  .table {
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .table img{
+    width: 98%;
+  }
+  .table .wrap-table{
+    padding: 0;
+    width: 80%;
+  }
+  .table .wrap-table .p{
+    font-size: 25px;
+  }
+}
+
+@media (width: 414px){
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -602,7 +603,7 @@ main{
   }
 }
 
-@media (width: 375px) and (height: 812px){
+@media (width: 375px) {
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -622,7 +623,7 @@ main{
   }
 }
 
-@media (width: 768px) and (height: 1024px){
+@media (width: 768px){
   .table img{
     width: 90%;
   }
@@ -631,7 +632,7 @@ main{
   }
 }
 
-@media (width: 540px) and (height: 720px){
+@media (width: 540px){
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -651,7 +652,7 @@ main{
   }
 }
 
-@media (width: 280px) and (height: 653px){
+@media (width: 280px){
   .table {
     padding: 20px 0 20px 0;
     display: flex;
@@ -667,4 +668,3 @@ main{
     width: 80%;
   }
 }
-
