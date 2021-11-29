@@ -695,7 +695,7 @@ main{
 /* responsive width */
 @media (max-width: 1055px){
   .slogan_wrap {
-    padding: 0 100px 100px 100px;
+    padding: 0 10px 25px 10px;
   }
   .slogan_wrap img{
     display: none;
@@ -715,6 +715,9 @@ main{
     flex-direction: column;
     align-items: center;
     font-size: 1.5rem;
+  }
+  .wrap-table h1 a{
+    font-size: 2rem;
   }
 }
 
