@@ -379,3 +379,13 @@ footer{
         font-size: 10px;
     }
 }
+
+/* responsivo */
+@media(max-width: 800px){
+    .box-2{
+        padding: 20px 0 0 0;
+    }
+    .grid-column{
+        margin: 50px;
+    }
+}
