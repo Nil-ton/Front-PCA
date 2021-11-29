@@ -406,20 +406,12 @@ header {
   .slogan_wrap {
     padding: 0 100px;
   }
-  .slogan_text_wrap{
-    padding-top: 0;
-  }
   .table{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin: 0;
-  }
-}
-@media (max-height: 800px) and (max-width:1055px){
-  .slogan_text_wrap{
-    padding-top: 0;
   }
 }
 /* responsive width */

@@ -673,9 +673,6 @@ main{
   .slogan_wrap {
     padding: 0 100px;
   }
-  .slogan_text_wrap{
-    padding-top: 0;
-  }
   .table{
     display: flex;
     flex-direction: column;
