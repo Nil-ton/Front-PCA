@@ -417,7 +417,11 @@ header {
     margin: 0;
   }
 }
-
+@media (max-height: 800px) and (max-width:1055px){
+  .slogan_text_wrap{
+    padding-top: 0;
+  }
+}
 /* responsive width */
 @media (max-width: 1055px){
   .slogan_wrap {
