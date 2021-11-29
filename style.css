@@ -401,4 +401,31 @@ header {
   }
 }
 
+/* responsive heigth */
+@media (max-height: 800px){
+  .slogan_wrap {
+    padding: 0 100px;
+  }
+  .slogan_text_wrap{
+    padding-top: 0;
+  }
+  .table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* responsive width */
+@media (max-width: 1055px){
+  .slogan_wrap {
+    padding: 0 100px 100px 100px;
+  }
+  .slogan_wrap img{
+    display: none;
+  }
+}
+
 
